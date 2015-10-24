@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="My Nanodegree Apps!"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+
+        style="@style/ButtonLayout"
+        android:onClick="spotifyStreamer"
+        android:text="Spotify Streamer" />
+
+    <Button
+        style="@style/ButtonLayout"
+
+        android:onClick="scoresApp"
+        android:text="Scores App" />
+
+    <Button
+        style="@style/ButtonLayout"
+
+        android:onClick="libraryApp"
+        android:text="Library App" />
+
+    <Button
+        style="@style/ButtonLayout"
+
+        android:onClick="buildItBigger"
+        android:text="Build It Bigger" />
+
+    <Button
+        style="@style/ButtonLayout"
+
+        android:onClick="xyzReader"
+        android:text="XYZ Reader" />
+
+    <Button
+        style="@style/ButtonLayoutCapstone"
+        android:onClick="capstoneMyOwnApp"
+        android:text="Capstone: My Own App" />
+
+</LinearLayout>
